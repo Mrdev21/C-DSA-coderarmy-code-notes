@@ -1,8 +1,9 @@
-#import os
+#include<iostream>
+using namespace std;
 
-#if(not os.path.exists("data")):
-  
- # os.mkdir("data")
-
-#for i in range(8, 180):
- # os.mkdir(f"data/L-{i+1}")
+int main()
+{
+  int a, b;
+  a=4;
+  b=4;
+  cout<<a+b;
